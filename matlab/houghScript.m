@@ -14,6 +14,8 @@ nLines    = 50;
 imglist = dir(sprintf('%s/*.jpg', datadir));
 
 for i = 1:numel(imglist)
+
+
     
     %read in images%
     [path, imgname, dummy] = fileparts(imglist(i).name);
